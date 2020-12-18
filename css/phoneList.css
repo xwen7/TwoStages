@@ -1,0 +1,277 @@
+
+.logo .ng-gif-logo {
+    margin-top: 20px;
+}
+.logo .ng-gif-logo img {
+    width: 120px;
+    height: 60px;
+}
+.wrap .logo {
+    position: relative;
+    width: 328px;
+    height: 90px;
+    left: 0;
+}
+.wrap .ng_search {
+    position: absolute;
+    width: 600px;
+    top: 20px;
+    left: 500px;
+}
+.hotwrods a {
+    margin: 0 8px;
+    color: #ff8000;
+}
+
+.phone_list_wrapper{
+    width: 100%;
+    background-color: #f2f2f2;
+    padding-top: 1px;
+}
+.phone_list_wrapper .phone_list_content{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+
+.sk_bd .sk_goods:nth-child(4n){ 
+    margin-right: 0
+}
+
+/*列表页内容区域?*/
+.sk_bd {
+	margin-top: 25px;
+}
+.sk_bd ul {
+	width: 1190px;
+}
+.sk_goods {
+	position: relative;
+	float: left;
+	width: 238px;
+	height: 350px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    background: #FFF;
+    
+}
+
+.sk_goods a .sk_goods_title {
+    height: 36px;
+    overflow: hidden;
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+	padding: 4px;
+}
+.sk_goods a img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto 0;
+    -webkit-transition: -webkit-transform .5s;
+    transition: transform .5s;
+}
+.sk_goods a:hover {
+    text-decoration: none;
+}
+.sk_goods a:hover .sk_goods_title {
+    color: #ff8000;
+}
+.sk_goods_price {
+	padding: 0 10px;
+}
+.sk_goods_price em {
+	font-size: 22px;
+	color: #ff8000;
+}
+.sk_goods_price del {
+	font-size: 14px;
+	font-weight: 700;
+	color: #a4a4a4;
+}
+.sk_goods_buy {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #ff8000;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+
+
+.page {
+	margin: 40px 0;
+	/*里面的文字内容  行内块 行内元素 都可以水平居中对齐*/
+	text-align: center;
+}
+.page_num a {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #ccc;
+	background-color: #f7f7f7;
+}
+.page_num .pn_prev,
+.page_num .pn_next {
+	width: 83px;
+}
+.page_num .dotted ,
+.page_num .current {
+	border: 1px solid transparent;
+	background-color: transparent;
+}
+.page_skip input {
+	width: 46px;
+	height: 36px;
+	border: 1px solid #ccc;
+	text-align: center;
+	/*过渡写在本身上 谁做动画，给谁加*/
+	transition: all 0.3s;
+}
+/*表单获得焦点后 */
+.page_skip input:focus {
+	width: 88px;
+	border: 1px solid skyblue;
+}
+.page_skip button {
+	width: 54px;
+	height: 36px;
+	border: 1px solid #ccc;
+	background-color: #f7f7f7;
+}
+
+
+
+
+.ng-footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    font-family: "Microsoft Yahei";
+    padding-top: 10px;
+}
+.ng-footer .ng-ser-box {
+    width: 1190px;
+    margin: 0 auto;
+    background: #f5f5f5;
+    border-top: 1px solid #e7e7e7;
+}
+.ng-footer .ng-promise {
+    width: 1190px;
+    padding: 12px 0;
+    height: 90px;
+    border-bottom: 1px solid #eaeaea;
+    margin: 0 auto;
+}
+
+.ng-footer .ng-promise dl {
+    float: left;
+    width: 238px;
+    overflow: hidden;
+}
+.ng-footer .ng-promise dt {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+.ng-footer .ng-promise dt img {
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+.ng-footer .ng-promise dd {
+    float: left;
+    height: 48px;
+    width: 140px;
+}
+.ng-footer .ng-promise dd p {
+    line-height: 20px;
+    width: 100%;
+    color: #545454;
+}
+.ng-footer .ng-promise dd p strong {
+    font-weight: 700;
+    color: #222;
+    font-size: 14px;
+}
+.clear {
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.ng-footer .ng-help-box {
+    float: left;
+    width: 1050px;
+    height: 180px;
+}
+.ng-footer .ng-help-box dl {
+    float: left;
+    height: 160px;
+    width: 210px;
+}
+.ng-footer .ng-help-box dt {
+    width: 100%;
+    line-height: 40px;
+    font-weight: 700;
+    color: #545454;
+    height: 35px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.ng-footer .ng-app-down {
+    float: left;
+    height: 180px;
+    width: 90px;
+}
+.ng-footer .ng-app-down p {
+    width: 100%;
+    line-height: 40px;
+    font-weight: 700;
+    color: #545454;
+    height: 35px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.ng-s-footer {
+    background: #FFF;
+    width: 100%;
+    min-width: 990px;
+    padding-top: 15px;
+    text-align: center;
+}
+.ng-s-footer .ng-s-f-con {
+    height: 210px;
+    width: 990px;
+    min-width: 990px;
+    margin: 0 auto;
+    font-family: "Microsoft Yahei";
+}
+.ng-s-footer p.ng-url-list {
+    height: 25px;
+    line-height: 25px;
+}
+.ng-s-footer p.ng-url-list a {
+    color: #666;
+}
+.ng-s-footer p.ng-url-list span {
+    color: #888;
+    padding: 0 8px;
+}
+.ng-s-footer p.ng-copyright {
+    width: 1190px;
+    float: left;
+    line-height: 25px;
+    color: #999;
+    height: 25px;
+}

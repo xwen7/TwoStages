@@ -1,0 +1,91 @@
+.table{
+    margin-bottom: 0px;
+}
+.trTitle{
+    background-color: #fff5e2;
+    font-size: 16px;
+
+}
+.trList{
+    height: 120px;
+    background-color: #fffbf2;
+    font-size: 15px;
+}
+.trList td{
+    line-height: 120px !important;
+}
+
+.cart_wrapper{
+    width: 100%;
+}
+.cart_content{
+    width: 1190px;
+    margin: 10px auto;
+}
+.ng-logo{
+    height: 100px;
+    line-height: 100px;
+
+}
+.ng-logo a{
+    float: left;
+}
+.ng-logo a img{
+    width: 190px;
+    height: 60px;
+}
+.ng-logo .title{
+    float: left;
+    margin-left: 40px;
+    font-size: 20px;
+    line-height: 74px;
+}
+.panel_foot{
+    height: 60px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+.dele{
+    float: left;
+    line-height: 60px;
+    margin-left: 20px;
+}
+.panel-default{
+    width: 200px;
+    float: right;
+}
+.panel-body{
+    display: inline-block;
+    width: 105px;
+    color: #ff8000;
+    font-size: 16px;
+
+}
+.settle{
+    width: 60px;
+    height: 60px;
+    margin-right: 0px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff8000;
+}
+.media img {
+    width: 100px;
+    height: 100px;
+}
+
+.media-left {
+    float: left;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.media-body .btn {
+    display: flex;
+    justify-content: space-between;
+}

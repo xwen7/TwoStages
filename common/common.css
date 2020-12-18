@@ -1,0 +1,87 @@
+
+.shortcut {
+    position: relative;
+    height: 35px;
+    width: 100%;
+    min-width: 990px;
+    line-height: 35px;
+    border-bottom: 1px solid #eee;
+    background:#f5f5f5;
+}
+
+
+.wrap .fr{
+    float: right;
+}
+.wrap .fl{
+    float: left;
+}
+.wrap{
+    width: 1190px;
+    margin: 0 auto;
+    min-width: 1190px;
+}
+.wrap li{
+    float: left;
+    padding: 0px 8px;
+}
+.wrap .fr .style-F60 {
+    color: #F60;
+}
+.wrap .logo{
+    position: relative;
+    width: 400px;
+    height: 90px;
+    top: 10px;
+    left: 0;
+}
+.logo  img{
+    width: 190px;
+    height: 90px;
+}
+.wrap .ng_search{
+    position: absolute;
+    width: 600px;
+    top: 34px;
+    left: 500px;
+}
+.ng_search .search{
+    position: absolute;
+}
+.wrap .fr .fa-shopping-cart {
+    color: #ff6600;
+    font-size: 14px;
+    padding: 0 2px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.text{
+    float: left;
+	width: 445px;
+	height: 32px;
+	border: 2px solid#ff8000;
+	padding-left: 10px;
+	color: #ccc;
+	border-radius: 10px 0 0 10px;
+}
+.btn{
+    float: left;
+	width: 82px;
+	height: 32px;
+	background-color: #ff8000;
+	border: 0;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 0 10px 10px 0;
+}
+.hotwrods {
+	position: absolute;
+	top: 40px;
+}
+.hotwrods a {
+	margin: 0 10px;
+}

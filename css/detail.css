@@ -1,0 +1,127 @@
+
+.intro_container_w{
+    width: 100%;
+    padding: 10px;
+    
+}
+.intro_content{
+    width: 1190px;
+    margin: 0 auto;
+}
+.crumb_wrap {
+    height: 25px;
+}
+.preview_wrap {
+    width: 400px;
+    height: 590px;
+}
+.fl {
+    float: left;
+    
+}
+.preview_img {
+    height: 398px;
+    border: 1px solid #ccc;
+}
+.preview_img img{
+    height: 100%;
+}
+.preview_list {
+    position: relative;
+    height: 60px;
+    margin-top: 10px;
+}
+.itemInfo_wrap {
+    width: 718px;
+}
+.fr {
+    float: right;
+}
+.sku_name {
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.news {
+    height: 32px;
+    color: #e12228;
+}
+.summary_price, .summary_promotion {
+    position: relative;
+    padding: 10px 0;
+    background-color: #fee9eb;
+}
+.choose_version {
+    margin: 10px 0;
+}
+.choose_btns {
+    margin-top: 20px;
+}
+
+.arrow_prev {
+    left: 0;
+    background: url(../img/arrow-prev.png) no-repeat;
+}
+.arrow_next {
+    right: 0;
+    background: url(../img/arrow-next.png) no-repeat;
+
+}
+.arrow_prev, .arrow_next {
+    position: absolute;
+    top: 15px;
+    width: 22px;
+    height: 32px;
+}
+.list_item {
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+}
+.list_item li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    border: 2px solid transparent;
+    margin: 0 2px;
+    background-color: burlywood;
+}
+.list_item li img{
+    width: 100%;
+    height: 100%;
+}
+.buycount {
+    margin-top: 20px;
+}
+
+.buycount .addToCart,.buycount .ToCart{
+    float: left;
+    color: #fff;
+    font: 16px/40px microsoft yahei;
+    font-weight: 600;
+    border-radius: 3px;
+    width: 88px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    padding-left: 4px;
+    margin: 0  4px;
+    cursor: pointer;
+}
+.buycount .addToCart{
+    background: #f50;
+}
+.buycount .ToCart{
+    background-color: #663200;
+}
+
+.w2{
+    display: block;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: burlywood;
+    padding: 10px auto;
+}
